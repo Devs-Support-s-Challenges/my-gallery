@@ -60,7 +60,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/cqrlosArch/webpack-workflow-2021
+$ git clone https://github.com/Devs-Support-s-Challenges/my-gallery
 
 # Install dependencies
 $ yarn install or npm install
