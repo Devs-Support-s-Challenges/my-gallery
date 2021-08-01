@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass ./scss/styles.scss:./dist/css/styles.min.css -w --style compressed",
-    "prefix": "postcss ./dist/css/styles.min.css --replace --use autoprefixer"
+    "start:sass": "sass ./scss/styles.scss:./dist/css/styles.min.css -w --style compressed",
+    "build:prefix": "postcss ./dist/css/styles.min.css --replace --use autoprefixer"
   },
   "keywords": [],
   "author": "",

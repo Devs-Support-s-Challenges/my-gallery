@@ -65,10 +65,10 @@ $ git clone https://github.com/Devs-Support-s-Challenges/my-gallery
 $ yarn install or npm install
 
 # Run mode SASS
-$ yarn start or npm start
+$ yarn run start:sass or npm run start:sass
 
 # Run build autoprefixer
-$ yarn run prefix or npm run prefix
+$ yarn run build:prefix or npm run build:prefix
 ```
 
 ## Acknowledgements
