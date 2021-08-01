@@ -1,18 +1,17 @@
-@use '../utilities/mixins' as mx;
-@use "sass:math";
+@use '../abstract/mixins' as mx;
 
-$bg-color: tomato;
-
-body {
-  background-color: $bg-color;
-  display: flex;
-  
+html {
+  box-sizing: border-box;
+  font-size: 1rem;
 }
 
-p {
-  background-color: blue;
-  line-height:math.div(9, 3);
-  @include mx.point('mini') {
-    background-color: red;
-  }
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
