@@ -29,6 +29,7 @@
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
+- [How To Use](#how-to-use)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
